@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-.menu {
- width: 25%;
- float: left;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   p {
