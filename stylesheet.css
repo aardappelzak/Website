@@ -1,14 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
-body {
-  font-size: 16px;
-  }
+
 .dropdown {
 
 }
 
 @media only screen and (max-width: 600px) {
   p {
-    color: red;
+    font-size: 16px;
   }
   
   div.menu {
@@ -21,7 +19,7 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     p {
-    color: blue;
+    font-size: 200%;
   }
   img {
   height: auto;
@@ -32,14 +30,14 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     p {
-    color: green;
+    font-size: 500%;
   }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     p {
-    color: orange;
+    font-size 75%;
   }
 } 
 
