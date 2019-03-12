@@ -88,40 +88,28 @@ li a:hover {
 	}
 }
 
-@media screen and (max-width: 699px)
-
-{
-
-#header {
-de eigenschappen voor schermen tot 699 pixels breed
+@media screen and (max-width: 699px) {
+	#header {
+		de eigenschappen voor schermen tot 699 pixels breed
+	}
+	#menu {
+		de eigenschappen voor schermen tot 699 pixels breed
+	}
+	#de_rest {
+		de eigenschappen voor schermen tot 699 pixels breed
+	}
 }
 
-#menu {
-de eigenschappen voor schermen tot 699 pixels breed
-}
-
-#de_rest {
-de eigenschappen voor schermen tot 699 pixels breed
-}
-
-}
-
-@media screen and (max-width: 460px)
-
-{
-
-#header {
-de eigenschappen voor schermen van 300 tot 459 pixels breed
-}
-
-#menu {
-de eigenschappen voor schermen van 300 tot 459 pixels breed
-}
-
-#de_rest {
-de eigenschappen voor schermen van 300 tot 459 pixels breed
-}
-
+@media screen and (max-width: 460px) {
+	#header {
+		de eigenschappen voor schermen van 300 tot 459 pixels breed
+	}
+	#menu {
+		de eigenschappen voor schermen van 300 tot 459 pixels breed
+	}
+	#de_rest {
+		de eigenschappen voor schermen van 300 tot 459 pixels breed
+	}
 }
 
 
