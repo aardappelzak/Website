@@ -1,5 +1,7 @@
 body {
 	background-color: #66c2ff;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* navigatie bar */
@@ -57,3 +59,93 @@ li a:hover {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+/* Hier komt de beschrijving voor de viewporten. In totaal maken we er 4 */
+
+/*Schermen van grote + nieuwe telefoons*/
+@media screen and (min-width: 460px) and (max-width: 1200px) {
+	#header {
+		width : 100%;
+	}
+	#menu {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	#content {
+		width: 95%;
+	}
+	#sidebar {
+		width: 95%;
+	}
+	#gewoon_menu {
+		display: none;
+	}
+
+	#dropdown_menu {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 699px)
+
+{
+
+#header {
+de eigenschappen voor schermen tot 699 pixels breed
+}
+
+#menu {
+de eigenschappen voor schermen tot 699 pixels breed
+}
+
+#de_rest {
+de eigenschappen voor schermen tot 699 pixels breed
+}
+
+}
+
+@media screen and (max-width: 460px)
+
+{
+
+#header {
+de eigenschappen voor schermen van 300 tot 459 pixels breed
+}
+
+#menu {
+de eigenschappen voor schermen van 300 tot 459 pixels breed
+}
+
+#de_rest {
+de eigenschappen voor schermen van 300 tot 459 pixels breed
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
